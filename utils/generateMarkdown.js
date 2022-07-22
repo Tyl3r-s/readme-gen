@@ -16,6 +16,15 @@ static generateMarkdown(data) {
   return `
 # ${data.title}
 
+## Table of Contents
+  - [Project Description](#Description)
+  - [Usage](#Usage)
+  - [Installation](#Installation)
+  - [Tests](#Tests)
+  - [Contributing](#Contributing)
+  - [Questions](#Questions)
+  - [License](#License)
+
 ## Description
 ${data.description}
 
