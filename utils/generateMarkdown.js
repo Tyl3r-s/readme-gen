@@ -10,11 +10,34 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+// Generate markdown for README
+class MarkDown {
+static generateMarkdown(data) {
+  return `
+# ${data.title}
 
-`;
+## Description
+${data.description}
+
+## Usage
+${data.usage}
+
+## Installation
+${data.installation}
+
+## Tests
+${data.tests}
+
+## Contributing
+${data.contributing}
+
+## Questions
+For inquiries, visit my github page: ${data.email} 
+Or, you can reach me at ${data.github} 
+
+## License
+${data.license}`;
 }
+};
 
-module.exports = generateMarkdown;
+module.exports = MarkDown;
