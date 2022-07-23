@@ -1,27 +1,29 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-
 class MarkDown {
 
-  static renderLicenseBadge(License){
+  //creates license badge
+  static renderLicenseBadge(license){
     const badges = {
       mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)',
       isc: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/license/ISC)',
       gnuplv3: '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL-v3-blue.svg)](https://gnu.org/licenses/lgpl-3.0)'
     }
-    return badges[License]
+    return badges[license]
   }
 
+  //creates the license link
+  static renderLicenseLink(license){
+    const licenseLinks = {
+      mit: '[MIT](https://choosealicense.com/licenses/mit/)',
+      isc: '[ISC](https://choosealicense.com/licenses/isc/)',
+      gnuplv3: '[GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/)'
+    }
+    return licenseLinks(license);
+  }
+
+  //creates license section
+  static renderLicenseSection(license){
+    const 
+  }
   // Generate markdown for README
     static generateMarkdown(data) {
         return `
@@ -58,7 +60,7 @@ For inquiries, visit my github page: ${data.email}
 Or, you can reach me at ${data.github} 
 
 ## License
-${data.license}`;
+${this.renderLicenseLink(data.license)}`;
 }
 };
 
