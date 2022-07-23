@@ -1,5 +1,7 @@
 
-# asdgadsgsg 
+# asdgadshfadh
+
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL-v3-blue.svg)](https://gnu.org/licenses/lgpl-3.0)
 
 ## Table of Contents
   - [Project Description](#Description)
@@ -11,23 +13,23 @@
   - [License](#License)
 
 ## Description
-asdgafdhrhg
+afdhafhafed
 
 ## Usage
-adfhaddhaergra
+adhgadfhaerh
 
 ## Installation
-asdgaergwrerewg
+adfhadfhaerg
 
 ## Tests
-aergawreghaerharh
+adfgaerhbadrfhaerh
 
 ## Contributing
 undefined
 
 ## Questions
-For inquiries, visit my github page: afdgaerhrewheahbreh 
-Or, you can reach me at awegarewhaedh 
+For inquiries, visit my github page: adgawerhaerh 
+Or, you can reach me at adsfhaerhbaerg 
 
 ## License
-mit
+Licensed under the [GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/) license

@@ -5,7 +5,7 @@ class MarkDown {
     const badges = {
       mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)',
       isc: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/license/ISC)',
-      gnuplv3: '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL-v3-blue.svg)](https://gnu.org/licenses/lgpl-3.0)'
+      gnuplv3: '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://gnu.org/licenses/lgpl-3.0)'
     }
     return badges[license]
   }
@@ -17,13 +17,18 @@ class MarkDown {
       isc: '[ISC](https://choosealicense.com/licenses/isc/)',
       gnuplv3: '[GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/)'
     }
-    return licenseLinks(license);
+    return licenseLinks[license];
   }
 
   //creates license section
   static renderLicenseSection(license){
-    const 
+    if(license){
+      return`Licensed under the ${this.renderLicenseLink(license)} license`
+    } else {
+      return ''
+    }
   }
+
   // Generate markdown for README
     static generateMarkdown(data) {
         return `
@@ -60,7 +65,7 @@ For inquiries, visit my github page: ${data.email}
 Or, you can reach me at ${data.github} 
 
 ## License
-${this.renderLicenseLink(data.license)}`;
+${this.renderLicenseSection(data.license)}`;
 }
 };
 
