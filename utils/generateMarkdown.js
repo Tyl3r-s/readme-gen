@@ -61,8 +61,8 @@ ${data.tests}
 ${data.contributing}
 
 ## Questions
-For inquiries, visit my github page: ${data.email} 
-Or, you can reach me at ${data.github} 
+For inquiries, visit my github page: ${data.github} 
+Or, you can reach me at ${data.email} 
 
 ## License
 ${this.renderLicenseSection(data.license)}`;
