@@ -1,7 +1,7 @@
 
-# asdgadshfadh
+# Readme Generator 
 
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL-v3-blue.svg)](https://gnu.org/licenses/lgpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
 
 ## Table of Contents
   - [Project Description](#Description)
@@ -13,23 +13,23 @@
   - [License](#License)
 
 ## Description
-afdhafhafed
+A simple node application which takes user input for the purpose of creating a high quality readme
 
 ## Usage
-adhgadfhaerh
+n/a
 
 ## Installation
-adfhadfhaerg
+First, ensure that node.js is installed. Then, make sure you're in the develop directory. After that, write the console command: npm i inquirer
 
 ## Tests
-adfgaerhbadrfhaerh
+npm test
 
 ## Contributing
 undefined
 
 ## Questions
-For inquiries, visit my github page: adgawerhaerh 
-Or, you can reach me at adsfhaerhbaerg 
+For inquiries, visit my github page: Tyl3r.s@outlook.com 
+Or, you can reach me at https://github.com/Tyl3r-s 
 
 ## License
-Licensed under the [GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/) license
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license
