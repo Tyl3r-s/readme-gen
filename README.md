@@ -1,5 +1,5 @@
 
-# title
+# Node Readme Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
 
@@ -13,22 +13,22 @@
   - [License](#License)
 
 ## Description
-description
+Node app which uses inquirer to generate a readme file
 
 ## Usage
 Tyler
 
 ## Installation
-npm install inquirer
+first: npm i, then: node index.js
 
 ## Tests
-npm test
+n/a
 
 ## Contributing
 undefined
 
 ## Questions
-For inquiries, visit my github page: github 
+For inquiries, visit my github page: https://github.com/Tyl3r-s 
 Or, you can reach me at Tyl3r.s@outlook.com 
 
 ## License
