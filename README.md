@@ -1,5 +1,7 @@
 
-# Readme Generator 
+# title
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
 
 ## Table of Contents
   - [Project Description](#Description)
@@ -11,30 +13,23 @@
   - [License](#License)
 
 ## Description
-- A simple node application which takes user input for the purpose of creating a high quality readme
+description
 
 ## Usage
-- Users are prompted to answer several questions/ supply descriptions in the terminal window
+Tyler
 
 ## Installation
-- Clone repo, cd to develop
-- Ensure node.js installed
-- Write to console: npm i inquirer
+npm install inquirer
 
 ## Tests
-- n/a
+npm test
 
 ## Contributing
-- UofT 
-- free to pull or fork
+undefined
 
 ## Questions
-- For inquiries, visit my github page: Tyl3r.s@outlook.com 
-- Or, you can reach me at https://github.com/Tyl3r-s 
+For inquiries, visit my github page: github 
+Or, you can reach me at Tyl3r.s@outlook.com 
 
 ## License
-- This project is not licensed 
-
-## Screenshot(s)
-
-## Video Guide
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license
